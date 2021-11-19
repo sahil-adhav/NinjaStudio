@@ -1,0 +1,494 @@
+* {
+    margin: 0px;
+}
+
+:root {
+    --bg-color: #0c1027;
+    --bg-form-color: #12193e;
+}
+
+body {
+    margin: 0px;
+    background-color: var(--bg-color);
+}
+
+/* Navbar Styles */
+
+.navbar__items {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.navbar__logo {
+    margin-right: 50px;
+}
+
+.navbar__logo img {
+    max-height: 100px;
+}
+
+.navbar__links ul {
+    list-style-type: none;
+    color: azure;
+}
+
+.navbar__links li {
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
+
+.navbar__formContent {
+    margin-left: 525px;
+    background-color: var(--bg-form-color);
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.navbar__formContent input {
+    background-color: var(--bg-form-color);
+    border: none;
+    margin-left: 10px;
+    font-size: 1.3rem;
+    color: #fff;
+    outline: none;
+}
+
+.fas {
+    color: #fff;
+    padding: 5px;
+}
+
+.navbar__icon {
+    padding: 30px;
+    font-size: x-large;
+}
+
+.navbar__avatar {
+    max-height: 75px;
+    border-radius: 50%;
+}
+
+/* Main Section CSS */
+
+.main {
+    width: 65%;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.carousel {
+    margin-left: 50px;
+}
+
+.carousel__img {
+    max-height: 300px;
+    padding: 20px;
+}
+
+.carousel__img:hover {
+    max-height: 320px;
+    -moz-box-shadow: 0 0 15px #ccc;
+    -webkit-box-shadow: 0 0 15px #ccc;
+    box-shadow: 0 0 15px #ccc;
+}
+
+/* Latest Release */
+
+.LatestRelease {
+    margin-left: 70px;
+    width: 100%;
+}
+
+.div__title {
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+.LR__content {
+    margin-top: 10px;
+    margin-right: 50px;
+    width: 35%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.content img {
+    max-height: 80px;
+}
+
+
+.LR__info {
+    display: inline;
+    color: #fff;
+    margin-left: 15px;
+    font-size: large;
+}
+
+.LR__info__time {
+    display: inline;
+    color: #fff;
+    margin-left: 15px;
+    font-weight: lighter;
+    font-size: 0.7rem;
+}
+
+.LR__logo {
+    float: right;
+}
+
+/* Popular Artist */
+
+.popular__artist {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.artist__img img {
+    margin-top: 10px;
+    border-radius: 50%;
+    max-height: 170px;
+    margin-right: 5px;
+}
+
+/* Aside Section */
+
+.aside {
+    width: 35%;
+    float: right;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+/* My Playlist */
+.my__playlist {
+    display: flex;
+}
+
+.my__playlist h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+    text-shadow: 0 0 20px #fff;
+}
+
+.my__playlist p {
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 200px;
+}
+
+.dropbtn {
+    background-color: var(--bg-color);
+    color: cyan;
+    font-size: 1.2rem;
+    margin-left: 200px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /* z-index: 1; */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    border-bottom: #000 solid;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: var(--bg-color);
+}
+
+.MP__content {
+    margin-top: 10px;
+    margin-right: 50px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.content img {
+    max-height: 80px;
+}
+
+
+.MP__info {
+    display: inline;
+    color: #fff;
+    margin-left: 15px;
+    font-size: large;
+}
+
+.MP__singer {
+    display: inline;
+    color: #fff;
+    margin-left: 15px;
+    font-weight: lighter;
+    font-size: 0.7rem;
+}
+
+.MP__logo {
+    margin-left: 50px;
+}
+
+/* Banner Styles */
+.banner img {
+    max-width: 800px;
+    margin-left: 150px;
+}
+
+/* Songs styles */
+.songs__list {
+    display: flex;
+    margin-left: 150px;
+    background-color: #1c1f33;
+    width: 800px;
+    max-height: 70px;
+    margin-top: 10px;
+}
+
+.sr__number p {
+    padding: 15px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+}
+
+.songs__section p {
+    color: #fff;
+}
+
+.song__img img {
+    max-height: 60px;
+    border-radius: 5%;
+    margin-top: 5px;
+}
+
+.song__name {
+    padding: 20px;
+    margin-top: 10px;
+    line-height: 1px;
+}
+
+.singer__name {
+    color: lightslategray !important;
+    font-size: x-small;
+}
+
+
+.song__icon {
+    color: #fff;
+    margin-top: 12px;
+    margin-left: 450px;
+}
+
+
+.song__icons {
+    color: #fff;
+    margin-top: 12px;
+    padding-right: 20px;
+}
+
+.similiar__artist {
+    margin-top: -20px !important;
+    display: flex;
+}
+
+.similiar__artist h2 {
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 20px #fff;
+}
+
+.similiar__artist p {
+    color: aqua;
+    margin-top: 7px;
+    margin-left: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.artist__container {
+    margin-top: 7px;
+}
+
+.artist__list {
+    width: 30%;
+    display: flex;
+}
+
+.artist__list p {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.artist__Songname {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 0.7rem;
+    width: auto;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.artist__Name {
+    color: lightslategrey !important;
+    font-size: 0.9rem !important;
+}
+
+.artist__list {
+    margin-top: 10px;
+}
+
+.artist__list img {
+    max-height: 90px;
+    border-radius: 5%;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.song__length i {
+    margin-left: 240px;
+    font-size: 0.8rem;
+    float: right;
+    position: absolute;
+}
+
+/* styling music player */
+
+.music__player {
+    position:sticky;
+    background-color: rgb(51, 47, 47);
+    margin: 0px;
+    height: auto;
+}
+
+.musicPlayer__container {
+    display: flex;
+    padding: 15px;
+}
+
+.musicPlayer__img img {
+    max-height: 60px;
+    border: 5%;
+    margin-left: 170px;
+}
+
+.musicPlayer__name p {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: grey;
+    line-height: 0.2rem;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.songArtist {
+    font-size: 0.7rem !important;
+}
+
+.musicPlayer__icons {
+    margin-left: 40px;
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+}
+
+.musicPlayer__icons i{
+    padding-left: 20px;
+}
+
+.musicPlayer__logo {
+    color: grey;
+    margin-top: 10px;
+    position: relative;
+}
+
+.musicPlayer__controlIcons {
+    margin-left: 270px;
+}
+
+.musicPlayer_control__icon {
+    color: grey;
+    font-size: medium;
+}
+
+.fa-play {
+    font-size: larger !important;
+}
+
+.audioPlayer__audio {
+    width: 500px;
+    margin-left: 90px;
+}
+
+.music-player--progress {
+    margin-top: 10px;
+    position: relative;
+    overflow: auto;
+    padding: 5px;
+    margin-left: 100px;
+}
+
+.progress--progress-bar {
+    position: absolute;
+    width: 100%;
+    top: -1px;
+    left: 0;
+    -webkit-appearance: none;
+    height: 3px;
+    z-index: 2
+}
+
+.progress--progress-bar::-webkit-progress-bar {
+    /* height: 4px; */
+    background: rgb(168, 165, 165);
+}
+
+.progress--progress-bar::-webkit-progress-value {
+    background: #2b8109;
+}
+
+.progress--time {
+    color: #A9A9A9;
+    font-size: 11px;
+    float: left;
+}
+
+.progress--time__end {
+    float: right;
+}
+
+.audioPlayer__right {
+    margin-left: 200px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.audioPlayer__right i{
+    color: grey;
+    padding-right: 25px;
+    font-size: large;
+}
